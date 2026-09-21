@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Entrada {
 
         public static void main(String[] args){
@@ -20,7 +22,19 @@ public class Entrada {
         System.out.println("Mi correo es "+correo);
         System.out.printf("Mi nombre es %s y mis apellidos son %s %s y tengo %d años",
                 nombre,apellido1,apellido2,18);
+
+
+
+        //ESTO NO SE PUEDE COMPLETAR POR LO DE ARRIBA
+            Scanner lector = new Scanner (System.in); //Scanner
+            System.out.println("Por favor introduce tu nombre");
+            String hola = lector.next();
+            System.out.println("Me llamo "+hola);
         }
+
+
+
+
 }
 
 
@@ -42,7 +56,12 @@ public class Entrada {
 //object se iguala a to_do  pero no se puede hacer tantas cosas como string
 // cuando delante del dato pones final se convierte en una cariable final
         // y se pone en mayusculas, son constantes
+// poniendo main se saca public static...
+//poniendo douf se saca System...
+//para darle valor a una variable compleja: Scanner lector = new Scanner ()
 
 //TODO definir variables hacer algun mensaje...
+
+
 
 
