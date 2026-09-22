@@ -16,9 +16,10 @@ Segundos: 13 */
         Scanner lector = new Scanner(System.in);
         System.out.println("Hola buenas me puede indicar el número de segundos");
         int segundostot = lector.nextInt();
-        int segundos = segundostot%60;
         int minutos = segundostot/60;
+        int segundos = segundostot%60;
         int horas = minutos/60;
+        minutos = minutos %60;
         System.out.println("Horas: "+horas);
         System.out.println("Minutos: "+minutos);
         System.out.println("Segundos: "+segundos);
