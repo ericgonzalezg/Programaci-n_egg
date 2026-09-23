@@ -4,15 +4,17 @@ public class Ejercicio10 {
     public static void main(String[] args) {
         Scanner lector = new Scanner(System.in);
         System.out.println("Introduce decenas de mil");
-        double DECM = lector.nextDouble();
+        int DECM = lector.nextInt();
         System.out.println("Introduce unidades de mil");
-        double UNIDM = lector.nextDouble();
+        int UNIDM = lector.nextInt();
         System.out.println("Introduce centenas");
-        double CEN = lector.nextDouble();
+        int CEN = lector.nextInt();
         System.out.println("Introduce decenas");
-        double DEC = lector.nextDouble();
+        int DEC = lector.nextInt();
         System.out.println("Introduce unidades");
-        double UNID = lector.nextDouble();
+        int UNID = lector.nextInt();
+
+        System.out.println("Número introducido " +DECM+UNIDM+CEN+DEC+UNID);
 
 
     }
