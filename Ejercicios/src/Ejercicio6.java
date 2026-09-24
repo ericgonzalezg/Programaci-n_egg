@@ -28,8 +28,9 @@ public class Ejercicio6 {
         ivatot = ivatot / 100;
         double preciot = precio - ivatot;
 
-        System.out.println("el iva es " + ivatot);
-        System.out.println("El precio de la compra sin iva es de " + preciot);
+
+        System.out.printf("El iva es: %.2f\n " ,ivatot);
+        System.out.printf("El precio de la compra sin iva es de %.2f " ,preciot);
 
 
     }

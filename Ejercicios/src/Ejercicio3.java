@@ -34,8 +34,9 @@ ENTERO: 7
         System.out.println("El resultado de la multiplicación entera es "+multiplicacion);
         System.out.println("El resultado de la division es "+division);
         System.out.println("El resultado del resto es "+resto);
-        System.out.println("El resultado de la division real es "+divisionr);
-        System.out.println("El resultado del resto real es "+restor);
+        System.out.printf("El resultado de la division real es %.2f\n",divisionr);
+        System.out.printf("El resultado del resto real es %.2f",restor);
 
     }
 }
+
