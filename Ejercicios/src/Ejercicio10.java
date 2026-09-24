@@ -16,6 +16,10 @@ public class Ejercicio10 {
 
         System.out.println("Número introducido " +DECM+UNIDM+CEN+DEC+UNID);
 
-
+        /* numero/10000
+            (numero%10000)/1000
+            (numero%10000)%1000/100
+            ...
+         */
     }
 }

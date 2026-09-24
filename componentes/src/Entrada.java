@@ -30,6 +30,9 @@ public class Entrada {
             System.out.println("Por favor introduce tu nombre");
             String hola = lector.next();
             System.out.println("Me llamo "+hola);
+
+            //TODO
+            //X*MATH.PI*RADIO
         }
 
 

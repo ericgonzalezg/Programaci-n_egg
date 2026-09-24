@@ -35,3 +35,4 @@ public class Ejercicio6 {
 
     }
 }
+//OTRA MANERA DE HACERLO ES COMPRASINIVA = COMPRATOTAL * (1 - ((DOUBLE)IVA/100)

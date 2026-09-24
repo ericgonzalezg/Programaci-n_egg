@@ -22,6 +22,6 @@ Area de circulo: 706.8583470577034
         double area = Math.PI*radio2;
         System.out.println("La longitud de la circunferencia es: "+longitud);
         System.out.println("El area del circulo es: "+area);
-
+        //MATH.POW--SE USA PARA HACER POTENCIAS COMO MATH.POW(RADIO,2) (RADIO AL CUADRADO)
     }
 }
