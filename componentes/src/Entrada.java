@@ -35,9 +35,10 @@ public class Entrada {
             //X*MATH.PI*RADIO
         }
 
-
-
-
+        int v1 = 7;
+        int v2 = 17;
+        int v3 = 4;
+        boolean resultado = (v1*2 > v2 ||  v3<v2/2) && !(v1!=9);
 }
 
 
@@ -65,6 +66,20 @@ public class Entrada {
 
 //TODO definir variables hacer algun mensaje...
 
+
+/*
+AND   (&&)                                   OR  (ll)
+C1    C2    R                              C1    C2   R
+T     T     T                              T     T    T
+T     F     F                              T     F    T
+F     T     F                              F     T    F
+F     F     F                              F     F    F
+
+
+int v1=8
+int v2=10
+
+ */
 
 
 
